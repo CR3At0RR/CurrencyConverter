@@ -1,0 +1,46 @@
+/*Header CSS*/
+:root {
+  --body-bg-color: black;
+  --gradient-color-one: red;
+  --gradient-color-two: purple;
+  --gradient-color-three: turquoise;
+  --header-height: 50px;
+}
+header {
+  width: 100vw;
+  height: var(--header-height);
+  background: linear-gradient(
+    to right,
+    var(--gradient-color-one),
+    var(--gradient-color-two),
+    var(--gradient-color-three)
+  );
+  background-size: 200% 100%; /* Double the width to accommodate the animation */
+  animation: animateGradient 5s linear infinite;
+}
+
+@keyframes animateGradient {
+  0% {
+    background-position: 0 50%; /* Start from left */
+  }
+  50% {
+    background-position: 100% 50%; /* Move to right */
+  }
+  100% {
+    background-position: 0 50%; /* Move back to left */
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--body-bg-color);
+}
+
+.headerText{
+  margin: 0 !important;
+  text-align: center;
+  color: #ffffff;
+  font-size: xx-large;
+}
+/*--------------------------------------------------------------------------------------------------*/
