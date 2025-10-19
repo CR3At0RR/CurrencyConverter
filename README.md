@@ -2,10 +2,7 @@
 
 A simple and responsive web application built with React that allows users to convert currency values using real-time exchange rate data.
 
-![Currency Converter Screenshot](https://via.placeholder.com/800x450.png?text=Add+Your+App+Screenshot+Here)
-*Replace the image link above with a screenshot of your application.*
-
-**Live Demo:** [https://your-deployment-link.com](https://your-deployment-link.com)
+**Live Demo:** [https://your-deployment-link.com](https://currency-converter-gold-nine.vercel.app/)
 
 ## Features
 
